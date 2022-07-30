@@ -17,7 +17,7 @@ lets create 3 component inside pages folder
 
 home
 about
-content
+contact
 
 so now all your pages are assigned 
 
@@ -25,9 +25,20 @@ lets start learning how to use routing in SPA {Single Page Application}
 
 you need to declare routes at root component for it to accessible 
 
+lets import BrowserRouter, Routes and Route from react router dom
 
+set all 3 pages to different routes
 
+path / set to home
+path /about set to about
+path /contact set to contact
 
+So far we only created routes now user won't be able to see any routes and don't know any information about which routes to select so in order to fix that issue we will create a NavBar
+component and declare all the routes so its easy for user to select what page he wants to see.
+
+lets create a NavBar Component
+inside NavBar component we create a unordered list and set all our routes with a tag{anchor}
+and set its attributes href with all the routes.
 
 
 
