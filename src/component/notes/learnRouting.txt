@@ -39,6 +39,18 @@ component and declare all the routes so its easy for user to select what page he
 lets create a NavBar Component
 inside NavBar component we create a unordered list and set all our routes with a tag{anchor}
 and set its attributes href with all the routes.
+note to access all the routes we use a tag but it re-render the entire page but in single page
+application we don't want it so to overcome this we use Link tag provided by the react-router-dom.
+
+
+switch all your a tag with link 
+all your href attributes with to. 
+
+after changing those attributes and tags you will see your app is running same but only difference
+is its not reloading again and again.
+
+now if you want to use any css lets say you want to show which link is active in your application
+you have to use NavLink instead of Link. 
 
 
 
