@@ -1,0 +1,59 @@
+Steps
+create a react app with the help of npx create-react-app <my app>
+update the boiler plate and remove unwanted files
+
+to install routing you need to install react-router-dom package 
+    yarn add react-router-dom
+        or
+    npm i react-router-dom
+
+create a root component lets make App component a root component
+
+create a new folder name it component 
+
+add another folder inside a component name pages
+
+lets create 3 component inside pages folder 
+
+home
+about
+content
+
+so now all your pages are assigned 
+
+lets start learning how to use routing in SPA {Single Page Application}
+
+you need to declare routes at root component for it to accessible 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
