@@ -15,7 +15,7 @@ export default () => {
           <Route path='/about' element={<About/>} />
           <Route path='/contact' element={<Contact/>} />
           <Route path='/custom' element={<><h1>this is Suhil</h1><h2>This is a custom html</h2></>}/>
-          
+          <Route path='*' element={<><h1>Error: 404</h1> <h3>Page Not Found</h3></>}/>
         </Routes>
       </BrowserRouter>
     </div>
