@@ -17,6 +17,15 @@ const NavBar = () => {
                 <li><NavLink to="/custom" style={({ isActive }) => {
                     return { backgroundColor: isActive ? "yellow" : "" }
                 }}>custom</NavLink></li>
+                <li><NavLink to="/post/suhil" style={({ isActive }) => {
+                    return { backgroundColor: isActive ? "yellow" : "" }
+                }}>post</NavLink></li>
+                <li><NavLink to="/post/mobile/2" style={({ isActive }) => {
+                    return { backgroundColor: isActive ? "yellow" : "" }
+                }}>post with category mobile</NavLink></li>
+                <li><NavLink to="/post/laptop/1" style={({ isActive }) => {
+                    return { backgroundColor: isActive ? "yellow" : "" }
+                }}>post with category laptop</NavLink></li>
             </ul>
         </>
     )
